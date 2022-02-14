@@ -5,8 +5,9 @@ Data needs to be downloaded and read by load.csv (sofifa) and load.excel (transf
 Transfermarkt databases were transformed from csv to xlsx (saved as excel books)
 Predictions are only approximations (mse = 5.08), to increase the performance, more data is necessary.
 This project is only a prototype, it can still be further improved and tweaked.  
-The model has bigger error when the Overall of the player is less than 70.
+The model has bigger error when the Overall of the player is less than 70. A separation of divisions or a league ranking column may improve this type of predictions.
 The ideal model should also predict potential, and attributes from the player (or even work rate, weak foot, etc), but more data is needed to feed the Neural Network for that to happen.
+To see the code, open the last version of my project, named: "Fifa_deep_learning_Final_version.ipynb"
 
 #Thank you for seeing my code!
 #Made using: Google Colab
