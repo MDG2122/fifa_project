@@ -1,6 +1,6 @@
 My first personal project, predicting FIFA ratings using sofifa and transfermarkt databases. 
 Originally wanted to feed the model with a 3d matrix, where the 3rd dimension represents the seasons (17-18,18-19 an so on), and use a RNN (LSTM) for the model, but it was not possible because of insufficient data. 
-The model consist on a standard Neural Network and is fed with data from a specific season (ex: 17-18).
+The model consists on a standard Neural Network and is fed with data from a specific season (ex: 17-18).
 Data needs to be downloaded and read by load.csv (sofifa) and load.excel (transfermarkt). Direction where the data is stored needs to be indicated before reading it.
 Transfermarkt databases were transformed from csv to xlsx (saved as excel books)
 Predictions are only approximations (mse = 5.08), to increase the performance, more data is necessary.
